@@ -1,0 +1,719 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-padding-top: 90px;
+}
+:root{
+    --primary-color:#343434;
+    --bg-color:#1C1C1C;
+    --color-second:#eeeeee;
+    --color-third:#748182;
+}
+.third-color{
+    color:var(--color-third);
+}
+.second-color{
+    background-color: var(--color-second);
+}
+.maincolor{
+    color:var(--primary-color);
+}
+.bg-color{
+    background-color: var(--bg-color);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6, .navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+}
+/* -----NAVBAR-----------------------------------------------*/
+.nav-link:focus,
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item {
+    padding: 5px;
+    position: relative;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item .nav-link.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/*--------HEADER-------------------------------------------------------*/
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.social-icons{
+    padding: 20px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    cursor: pointer;
+}
+ .type h2::after{
+  content: "|";
+  letter-spacing:2px ;
+  animation: typing 6s infinite;
+  font-weight:400;
+  font-size: larger;
+ }
+ @keyframes typing {
+    0% {
+        content: "|";
+    }
+    3% {
+        content: "L|";
+    }
+    5% {
+        content: "La|";
+    }
+    7% {
+        content: "Lar|";
+    }
+    9% {
+        content: "Larr|";
+    }
+    11% {
+        content: "Larry|";
+    }
+    13% {
+        content: "Larry D|";
+    }
+    15% {
+        content: "Larry Da|";
+    }
+    17% {
+        content: "Larry Dan|";
+    }
+    18% {
+        content: "Larry Dani|";
+    }
+    19% {
+        content: "Larry Danie|";
+    }
+    21% {
+        content: "Larry Daniel|";
+    }
+    22% {
+        content: "Larry Daniels|";
+    }
+    26% {
+        content: "Larry Daniels|";
+    }
+    28% {
+        content: "Larry Daniel|";
+    }
+    29% {
+        content: "Larry Danie|";
+    }
+    30% {
+        content: "Larry Dani|";
+    }
+    32% {
+        content: "Larry Dan|";
+    }
+    34% {
+        content: "Larry Da|";
+    }
+    36% {
+        content: "Larry D|";
+    }
+    38% {
+        content: "Larry D|";
+    }
+    40% {
+        content: "Larry |";
+    }
+    41% {
+        content: "Larry|";
+    }
+    42% {
+        content: "Larr|";
+    }
+    43% {
+        content: "Lar|";
+    }
+    45% {
+        content: "La|";
+    }
+    47% {
+        content: "L|";
+    }
+    49% {
+        content: "|";
+    }
+    50% {
+        content: "D|";
+    }
+    51% {
+        content: "De|";
+    }
+    52% {
+        content: "Dev|";
+    }
+    53% {
+        content: "Deve|";
+    }
+    54% {
+        content: "Devel|";
+    }
+    55% {
+        content: "Develo|";
+    }
+    56% {
+        content: "Develop|";
+    }
+    57% {
+        content: "Develope|";
+    }
+    58% {
+        content: "Developer|";
+    }
+    59% {
+        content: "Developer|";
+    }
+    60% {
+        content: "Developer|";
+    }
+    65% {
+        content: "Developer|";
+    }
+    70% {
+        content: "Develope|";
+    }
+    71% {
+        content: "Develop|";
+    }
+    72% {
+        content: "Develo|";
+    }
+    73% {
+        content: "Devel|";
+    }
+    74% {
+        content: "Deve|";
+    }
+    75% {
+        content: "Dev|";
+    }
+    76% {
+        content: "De|";
+    }
+    77% {
+        content: "D|";
+    }
+    78% {
+        content: "|";
+    }
+    85% {
+        content: "D|";
+    }
+    86% {
+        content: "De|";
+    }
+    87% {
+        content: "Des|";
+    }
+    88% {
+        content: "Desi|";
+    }
+    89% {
+        content: "Desig|";
+    }
+    90% {
+        content: "Design|";
+    }
+    91% {
+        content: "Designe|";
+    }
+    92% {
+        content: "Designer|";
+    }
+    93% {
+        content: "Designer|";
+    }
+    94% {
+        content: "Designe|";
+    }
+    95% {
+        content: "Design|";
+    }
+    96% {
+        content: "Desig|";
+    }
+    97% {
+        content: "Desi|";
+    }
+    98% {
+        content: "De|";
+    }
+    99% {
+        content: "D|";
+    }
+    100% {
+        content: "|";
+    }
+}
+/*---ABOUT----------------------------------------------------------------*/
+.fit-content{
+    width:fit-content;
+}
+.download-btn{
+    color: #fff;
+    transition: 0.5s all;
+    border: 0.1px solid var(--bg-color);
+}
+.download-btn:hover{
+    background-color: white;
+    color: var(--bg-color);
+}
+.Contact-btn{
+    color: var(--primary-color);
+    transition: 0.5s all;
+    border: 0.1px solid var(--bg-color);
+}
+.Contact-btn:hover{
+    background-color: var(--bg-color);
+    color: #fff;
+}
+.progress{
+        box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+        height: 25px;
+} 
+
+
+
+.about .about-img::after {
+    content: "";
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    left: -25px;
+    bottom: -30px;
+    background-image: url("../imgs/dots.png");
+    background-repeat: repeat;
+    z-index: 1;
+}
+.hero-img{
+    height: auto;
+    vertical-align: middle;
+    border: none;
+    z-index: 2;
+    position: relative;
+}
+
+
+/*---SERVICES----------------------------------------------------------*/
+.services-cards i{
+    background-color:RGB(238, 238, 238);
+    color:var(--bg-color);
+    transition: 0.5s all;
+}
+.services-cards:hover i{
+background-color: var(--bg-color);
+color: #fff;
+}
+.section-head h3{
+    z-index: 1;
+    position:relative;
+    width: fit-content;
+  
+}
+.section-head h3::after{
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-image: url("../imgs/dots.png");
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 10px;
+    opacity: 1;
+    left: 0;
+    z-index: -1;
+}
+
+/*----Portfolio--------------------------------------------*/
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    color: var(--bg-color);
+}
+.nav-pills .nav-link{
+    color: #1C1C1C;
+    font-weight: 700;
+}
+
+.layer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(10px);
+    background: #fff;
+    transition: 0.5s all;
+}
+.icon-port .iconss{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: 1px solid var(--bg-color);
+padding: 5px;
+background-color:var(--bg-color);
+opacity: 0;
+transform: translateY(10px);
+transition: 0.5s all;
+color: #fff;
+cursor: pointer;
+}
+.big-layer:hover .iconss{
+    opacity: 1;
+    transform: translateY(0);
+}
+.iconss:hover{
+    color:var(--bg-color);
+    background-color: #fff;
+}
+.text-port .textss{
+color: var(--bg-color);
+opacity: 0;
+transform: translateY(-17px);
+transition: 0.5s all;
+}
+.big-layer:hover .textss{
+opacity: 1;
+transform: translatey(0);
+}
+.big-layer:hover .layer{
+opacity: 1;
+transform: translateY(0);
+left: 7px;
+bottom:7px;
+top:7px;
+right:7px;
+}
+.nav-pills .nav-link {
+    position: relative;
+}
+.nav-pills .nav-link.active::after {
+    content: "";
+    transform: scaleX(1);
+    transform-origin: left;
+    height: 3px;
+    background-color: var(--bg-color);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+/*------Clients-----------------------------*/
+.clients{
+    background-color:#f7f7f7;
+}
+.carousel-indicators .carousell{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background-color:#838080;
+}
+.carousell:hover  {
+    background-color: #000;
+}
+.carousell.active{
+    background-color: var(--bg-color);
+}
+
+/*-----Counter-------------------------------------*/
+.counts p::after {
+    content: "560";
+    display: inline-block;
+    animation: counting 10s;
+
+}
+
+@keyframes counting {
+    1%{
+        content:"561";
+    }
+    2%{
+        content:"570";
+    }
+    3%{
+        content:"571";
+    }
+    4%{
+        content:"579";
+    }
+    5%{
+        content:"581";
+    }
+    6%{
+        content:"585";
+    }
+    7%{
+        content:"590";
+    }
+    8%{
+        content:"680";
+    }
+    9%{
+        content:"750";
+    }
+    10%{
+        content:"810";
+    }
+    11%{
+        content:"820";
+    }
+    12%{
+        content:"830";
+    }
+    13%{
+        content:"840";
+    }
+    15%{
+        content:"841";
+    }
+    16%{
+        content:"542";
+    }
+    17%{
+        content:"543";
+    }
+    18%{
+        content:"544";
+    }
+    19%{
+        content:"545";
+    }
+    20%{
+        content:"546";
+    }
+    21%{
+        content:"547";
+    }
+    22%{
+        content:"548";
+    }
+    23%{
+        content:"549";
+    }
+    24%{
+        content:"550";
+    }
+}
+.count-p p::after{
+    content: "230";
+    display: inline-block;
+    animation: counting-p 10s;
+}
+@keyframes counting-p {
+    0% {
+        content: "1";
+    }
+    2% {
+        content: "10";
+    }
+    4% {
+        content: "20";
+    }
+    6% {
+        content: "30";
+    }
+    8% {
+        content: "40";
+    }
+    10% {
+        content: "50";
+    }
+    12% {
+        content: "60";
+    }
+    14% {
+        content: "70";
+    }
+    16% {
+        content: "80";
+    }
+    18% {
+        content: "90";
+    }
+    20% {
+        content: "100";
+    }
+    22% {
+        content: "110";
+    }
+    24% {
+        content: "120";
+    }
+    26% {
+        content: "130";
+    }
+    28% {
+        content: "140";
+    }
+    30% {
+        content: "150";
+    }
+    32% {
+        content: "160";
+    }
+    34% {
+        content: "170";
+    }
+    36% {
+        content: "180";
+    }
+    38% {
+        content: "190";
+    }
+    40% {
+        content: "200";
+    }
+    42% {
+        content: "210";
+    }
+    44% {
+        content: "220";
+    }
+    46% {
+        content: "230";
+    }
+    100% {
+        content: "230";
+    }
+}
+.count-l p::after{
+    content: "9450";
+    display: inline-block;
+    animation: counting-l 1s;
+}
+/*----TEAM------------------------------------*/
+.team-img {
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.team-img img {
+    transition: 1s all;
+}
+
+.team-img:hover img {
+    transform: scale(1.2);
+}
+
+.team-icons {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    background-color: #fff;
+   transform: rotateY(180deg);
+   transition: 0.5s all;
+}
+
+.team-img:hover .team-icons {
+    opacity: 1;
+    transform: rotateY(360deg) scale(0.9);
+}
+
+.bigger:hover .team-icons {
+    opacity: 1;
+    transform: rotateY(360deg) scale(0.9);
+}
+
+ul.team-icons li a {
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5px;
+}
+.team-icons li:hover a{
+   background-color: #fff;
+   border: 1px solid #000;
+   color: #000;
+}
+
+.team-text {
+    background-color: #424242;
+}
+
+.team {
+    background-color: #f7f7f7;
+}
+/*------Contact----------------------------------*/
+.card-icon{
+    color:var(--bg-color);
+    font-size: 24px;
+    background-color:RGB(238, 238, 238);
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+.contact-card:hover .card-icon{
+    color:#fff;
+    background-color:var(--bg-color);
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+.submit-btn{
+    color: #fff;
+    transition: 0.5s all;
+    background-color: var(--bg-color);
+    border: 0.1px solid var(--bg-color);
+}
+.submit-btn:hover{
+    background-color: white;
+    color: var(--bg-color);
+}
